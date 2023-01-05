@@ -3,13 +3,13 @@ exports.getDate = function(){
 
 const today = new Date ();
 
-const dayoptions = {
+const options = {
     weekday: "long", 
     day: "numeric",
     month: "long"
 };
 
-return today.toLocaleDateString("en-US", dayoptions);
+return today.toLocaleDateString("en-US", options);
 
 }
 
